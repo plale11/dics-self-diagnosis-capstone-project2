@@ -34,7 +34,7 @@ with st.form(f"diagnosis_form_{st.session_state.form_key}"):
 
     grade = st.selectbox(
         "Grade",
-        ["Select grade", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5" "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"]
+        ["Select grade", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"]
     )
 
     gender = st.radio("Gender", ["Male", "Female", "Other"])
